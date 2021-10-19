@@ -2,23 +2,20 @@ import java.util.*;
 public class Remove_Prime {
 
 	public static void solution(ArrayList<Integer> al) {
-		for(int i=0;i<al.size();i++) {
-			if(isPrime(al.get(i))==true) {
+		for(int i = al.size()-1; i >= 0; i--) {
+			if(isPrime(al.get(i))) {
 				al.remove(i);
 			}
 		}
 	}
 	
 	public static boolean isPrime(int n) {
-		boolean flag=true;
-	    int m = n/2;
-		for(int i=2;i<=m;i++){      
+		for(int i=2;i*i<=n;i++){      
 		    if(n%i==0){      
-		     flag=false; 
-		     return flag;
+		     return false;
 		    }    
 		}
-		return flag;
+		return true;
 	}
 	
 	public static void main(String[] args) {
