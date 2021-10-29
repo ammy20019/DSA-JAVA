@@ -1,3 +1,9 @@
+/*1. You are given a number n and a number m representing number of rows and columns in a maze.
+2. You are standing in the top-left corner and have to reach the bottom-right corner. Only two moves are allowed 'h' (1-step horizontal) and 'v' (1-step vertical).
+3. Complete the body of getMazePath function - without changing signature - to get the list of all paths that can be used to move from top-left to bottom-right.
+Use sample input and output to take idea about output.*/
+
+
 import java.util.*;
 public class Maze_Paths {
 
@@ -22,12 +28,12 @@ public class Maze_Paths {
     	ArrayList<String> vpaths = new ArrayList<>();
     	
     	ArrayList<String> paths = new ArrayList<>();
-    	if(sr<dr) {
-    		hpaths = getMazePaths(sr+1,sc,dr,dc);
+    	if(sr<dr) {		
+    		vpaths = getMazePaths(sr+1,sc,dr,dc);
     	}
     	
     	if(sc<dc) {
-    		vpaths = getMazePaths(sr,sc+1,dr,dc);
+    		hpaths = getMazePaths(sr,sc+1,dr,dc);
     	}
     	
     	for(String hpath: hpaths) {
