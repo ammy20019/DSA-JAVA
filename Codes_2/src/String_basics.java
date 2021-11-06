@@ -45,15 +45,18 @@ Engineering
 		
 		
 		//Split
-		String str1= "Hello I am a software engineer at google";
-		String str2 = "Hello,I,am,a,software engineer";
-		String[] parts = str1.split(" ");
-		String[] parts1 = str2.split(",");
-		for(int i=0;i<parts1.length;i++) {
-			//System.out.println(parts[i]);
-			System.out.println(parts1[i]);
-		}
+//		String str1= "Hello I am a software engineer at google";
+//		String str2 = "Hello,I,am,a,software engineer";
+//		String[] parts = str1.split(" ");
+//		String[] parts1 = str2.split(",");
+//		for(int i=0;i<parts1.length;i++) {
+//			//System.out.println(parts[i]);
+//			System.out.println(parts1[i]);
+//		}
 		
+		
+		String t = "hello";
+		System.out.println(t.substring(1));
 	}
 
 }
