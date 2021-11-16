@@ -56,7 +56,7 @@ Engineering
 		
 		
 		String t = "hello";
-		System.out.println(t.substring(1));
+		System.out.println(t.substring(1,2));
 	}
 
 }
