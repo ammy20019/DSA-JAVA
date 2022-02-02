@@ -44,7 +44,7 @@ public class Celebrity_Prob {
     			st.push(j);
     		} else {
     			//if i does not know j -> j is not a celev
-    			st.push(j);
+    			st.push(i);
     		}
     	}
     	
