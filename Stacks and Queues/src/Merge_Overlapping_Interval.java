@@ -3,7 +3,7 @@
  * 1. You are given a number n, representing the number of time-intervals.
 2. In the next n lines, you are given a pair of space separated numbers.
 3. The pair of numbers represent the start time and end time of a meeting (first number is start time and second number is end time)
-4. You are required to merge the meetings and print the merged meetings output in increasing order of start time.
+4. You are required to merge the meetings and print the merged meetings output in increasing order of start time..st
  * Sample Input
 
 6
