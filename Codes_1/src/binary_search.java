@@ -15,7 +15,7 @@ public class binary_search {
 			} else if(data<arr[m]) {
 				h=m-1;
 			} else {
-				System.out.println(m);
+				System.out.println("Found at position : " + (m+1));
 				return;
 			}
 		}
